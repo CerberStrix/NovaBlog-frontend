@@ -1,0 +1,8 @@
+{
+  "editor.minimap.autohide": false,
+  "editor.minimap.scale": 2,
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "js/ts.implicitProjectConfig.module": "None",
+  "editor.minimap.size": "proportional",
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true
+}
