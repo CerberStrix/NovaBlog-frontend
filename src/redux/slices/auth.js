@@ -48,7 +48,7 @@ const authSlice = createSlice({
     },
     [fetchAuthMe.fulfilled] : (state, action) => {
       state.status = 'loaded';
-      state.data = action.payload;
+      state.data = action.payload.userData;
     },
     [fetchAuthMe.rejected] : (state) => {
       state.status = 'error';
