@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const heroku = process.env.REACT_APP_API_URL;
+
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: 'https://dashboard.heroku.com/apps/kim-blog-mern',
 });
 
 instance.interceptors.request.use((config) => {
